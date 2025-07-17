@@ -11,6 +11,7 @@
     "deploy": "set GITHUB_PAGES=true && npm run build && npm run export && npx gh-pages -d out"
   },
   "dependencies": {
+    "framer-motion": "^12.23.6",
     "next": "15.4.1",
     "react": "19.1.0",
     "react-dom": "19.1.0"
@@ -21,10 +22,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.4.1",
     "gh-pages": "^6.3.0",
-    "tailwindcss": "^4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5"
   }
 }
